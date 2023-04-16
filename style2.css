@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body,html{
+    font-family: Roboto;
+    background: #f0f3fa;
+
+}
+.MyMainDiv{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.width-100{
+
+    
+        width: 100%;
+        float: left;
+    
+}
+.container{
+
+    width: 100%;
+    margin: 0px auto;
+}
+
+.top-header{
+    
+        background: #2196f3;
+        padding: 5px 0px;
+        border-bottom: 1px solid #3131315e;
+
+
+}
+.news-list{
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+
+}
+.headquote{
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+
+}
+.list-class{
+    list-style:none;
+}
+.container11{
+    padding: 10px;
+    position: relative;
+    display:table-cell;
+    height: 150px;
+    width:100%;
+    display: flex;
+}
+
+.container11 img{
+    height: 150px;
+    width: auto;
+    border: 2px solid black;
+}
+.container11-text{
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 50px;
+    height: 150px;
+    width: 100%;
+    
+}
+.container112{
+    padding-left: 130px;
+    
+    position: relative;
+    display:table-cell;
+    height: 70px;
+    width:100%;
+    display: flex;
+}
+
+.container112 img{
+    
+    height: 70px;
+    width: auto;
+    border: 2px solid black;
+    border-width: auto;
+
+}
+.container11-text2{
+    text-align: center;
+    padding-top: 25px;
+    height: 70px;
+    width: 100%;
+}
+.header-menu{
+    padding-left: 20px;
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo{
+    padding-left: 70%;
+    width: fit-content;
+    float: left;
+}
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+
+}
+.main-menu a{
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+    background:gainsboro;
+
+}
+.main-menu li{
+    float: left;
+    padding: 12px 15px;
+}
+.slider-width{
+    width: 100%;
+    height: auto;
+
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.width-33{
+    width: 39%;
+    float: left;
+
+
+}
+.latest-news{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.heading-sect{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+.head-title{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 5px;
+
+}
+
+.latest-news-ul{
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+
+}
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.upcoming-event-list{
+    padding: 0px;
+    list-style: none;
+}
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.event-date{
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
+.notice-board{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.gov-sec-style{
+  
+        float: right;
+    
+}
+
+.governor-img{
+    float: right;
+}
+.governor-name{
+    float: unset;
+    padding: 5px;
+
+}
+
+.governor1-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.vision1-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.vision2-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.vision3-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+.vision4-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    padding: 20px;
+    height: 350;
+    margin-top: 30px;
+}
+
+.recruiter-marquee{
+    height: 100px;
+}
+.recruiter-head-style{
+    font-size: 89px;
+    color: currentColor;
+    margin-bottom: 12x;
+    background: #03a9f4;
+    width: 56x;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    padding: 29;
+}
+
+.recruiter-marquee-img{
+    height:80px;
+    width:140px;
+}
+.quicklink-heading{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer{
+    width: 100%;
+    background: #232f3e;
+    padding: 0px;
+
+}
+.quicklink-menu{
+    list-style: none;
+    padding-left: 10px;
+}
+.quicklink-menu li a{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+.quicklink-menu-info{
+    list-style: none;
+    padding-left: 10px;
+
+
+}
+.quicklink-menu-info li a{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.quicklink-menu-student{
+
+    list-style: none;
+    padding-left: 10px;
+
+}
+.quicklink-menu-student li a{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+.get-in-touch{
+
+    list-style: none;
+    padding-left: 10px;
+}
+.get-in-touch li a{
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.personal-detail{
+    top: 20px;
+    position: relative;
+}
+.personal-detail p{
+    top: 30px;
+}
+.content{
+    width: 65%;
+    top: 50px;
+    position: absolute;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1 span{
+    color: #fd4766;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    justify-content: center;
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color:#fd4766;}
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.Footer{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.social{
+    
+    padding-top: 50px;
+    left:60%;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+.mail{
+    padding-top: 55px;
+    left:25%;
+    justify-content: center;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+}
+.mail p{
+    padding-bottom: 10px;
+   
+}
+.mail-in{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    height: 38px;
+    width: 120px;
+    background-color: rgb(36, 41, 37);
+    color: white;
+    border: none;
+}
+.mail-in:hover{
+    background-color: rgb(71, 85, 74);
+}
+.O6KwRn{
+    padding-right: 30px;
+    display: inline-block;
+}
+.award{
+   
+        width: fit-content;
+        float: left;
+    
+}
